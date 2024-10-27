@@ -1,0 +1,12 @@
+.loader-container {
+  position: fixed; /* Fix the loader to the viewport */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it at the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure it appears above other content */
+}
